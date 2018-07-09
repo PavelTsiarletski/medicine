@@ -1,0 +1,12 @@
+.logo {
+    animation: rotate 10s ease-in-out infinite;
+    margin-right: 1rem;
+}
+
+@keyframes rotate {
+    0%, 100%{
+        transform: rotate(0deg);
+    }50% {
+    transform: rotate(360deg);
+         }
+}
